@@ -51,7 +51,7 @@ ape test
 
 To test a particular contract use:
 
-````bash
+```bash
 ape test test_my_contract
 ```
 
@@ -59,7 +59,7 @@ Additionally you can use `-I` to open interactive mode and `-s` to print logs.
 
 ```bash
 ape test test_my_contract -I -s
-````
+```
 
 # Deployments
 
