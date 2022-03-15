@@ -1,5 +1,7 @@
 # ApeWorx Boilerplate
 
+Simple boilerplate for smart contract development with ApeWorx.
+
 ## Installation
 
 Install Dependencies
