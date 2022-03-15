@@ -33,7 +33,7 @@ export WEB3_INFURA_PROJECT_ID={YOUR_INFURA_PROJECT_ID}
 export WEB3_ALCHEMY_API_KEY={YOUR_ALCHEMY_KEY}
 ```
 
-Visit [infura](https://infura.io/) to get your free key.
+Visit [infura](https://infura.io/) or [alchemy](https://www.alchemy.com/) to get your free key.
 
 # Console Usage
 
@@ -43,6 +43,8 @@ To interact with a deployed contract in a local environment, start by opening th
 ape console --network :mainnet-fork:hardhat
 ```
 
+This example used `mainnet-fork`.
+
 # Testing
 
 All tests must be stored under `tests/`. Each test must start with `test_` and end with the `.py` extension.
@@ -51,13 +53,13 @@ All tests must be stored under `tests/`. Each test must start with `test_` and e
 ape test
 ```
 
-To test a particular contract use:
+To run a particular test:
 
 ```bash
 ape test test_my_contract
 ```
 
-Additionally you can use `-I` to open interactive mode and `-s` to print logs.
+Additionally, you can use `-I` to open interactive mode and `-s` to print logs.
 
 ```bash
 ape test test_my_contract -I -s
